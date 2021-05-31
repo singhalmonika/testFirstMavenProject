@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-31T16:31:01 IST" name="1KOSMOS test suite" finished-at="2021-05-31T16:32:18 IST" duration-ms="76643">
+    <groups>
+    </groups>
+    <test started-at="2021-05-31T16:31:01 IST" name="TestMyPedia" finished-at="2021-05-31T16:32:18 IST" duration-ms="76643">
+      <class name="testscripts.TestMyPedia">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:31:01 IST" name="setup" finished-at="2021-05-31T16:31:09 IST" duration-ms="7242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="closeTheIframe()[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:31:09 IST" name="closeTheIframe" finished-at="2021-05-31T16:31:49 IST" duration-ms="40325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheIframe -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:31:49 IST" name="teardown" finished-at="2021-05-31T16:31:49 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closeTheIframe status=SUCCESS method=TestMyPedia.closeTheIframe()[pri:0, instance:testscripts.TestMyPedia@78ffe6dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="verifyLanguageDropdown()[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:31:49 IST" name="verifyLanguageDropdown" finished-at="2021-05-31T16:31:53 IST" depends-on-methods="testscripts.TestMyPedia.closeTheIframe" duration-ms="4336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLanguageDropdown -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:31:53 IST" name="teardown" finished-at="2021-05-31T16:31:53 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLanguageDropdown status=SUCCESS method=TestMyPedia.verifyLanguageDropdown()[pri:0, instance:testscripts.TestMyPedia@78ffe6dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="createNewAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:31:53 IST" name="createNewAccount" data-provider="createAccount" finished-at="2021-05-31T16:32:00 IST" depends-on-methods="testscripts.TestMyPedia.verifyLanguageDropdown, testscripts.TestMyPedia.closeTheIframe" duration-ms="6426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFirst]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestFirstLastName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestParent]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:32:00 IST" name="teardown" finished-at="2021-05-31T16:32:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAccount status=SUCCESS method=TestMyPedia.createNewAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="createNewAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:32:00 IST" name="createNewAccount" data-provider="createAccount" finished-at="2021-05-31T16:32:06 IST" depends-on-methods="testscripts.TestMyPedia.verifyLanguageDropdown, testscripts.TestMyPedia.closeTheIframe" duration-ms="6090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestSecond]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestSecondLastName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing2@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestSecondParent]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method signature="createNewAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:32:06 IST" name="createNewAccount" data-provider="createAccount" finished-at="2021-05-31T16:32:12 IST" depends-on-methods="testscripts.TestMyPedia.verifyLanguageDropdown, testscripts.TestMyPedia.closeTheIframe" duration-ms="6047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestThird]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestThirdLastName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing3@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestThirdParent]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:32:06 IST" name="teardown" finished-at="2021-05-31T16:32:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAccount status=SUCCESS method=TestMyPedia.createNewAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:32:12 IST" name="teardown" finished-at="2021-05-31T16:32:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAccount status=SUCCESS method=TestMyPedia.createNewAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="createNewAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:32:12 IST" name="createNewAccount" data-provider="createAccount" finished-at="2021-05-31T16:32:18 IST" depends-on-methods="testscripts.TestMyPedia.verifyLanguageDropdown, testscripts.TestMyPedia.closeTheIframe" duration-ms="5874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestFour]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestFourLastName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testing4@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TestFourParent]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@123456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:32:18 IST" name="teardown" finished-at="2021-05-31T16:32:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAccount status=SUCCESS method=TestMyPedia.createNewAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testscripts.TestMyPedia@78ffe6dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testscripts.TestMyPedia@78ffe6dc]" started-at="2021-05-31T16:32:18 IST" name="closeBrowser" finished-at="2021-05-31T16:32:18 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscripts.TestMyPedia -->
+    </test> <!-- TestMyPedia -->
+  </suite> <!-- 1KOSMOS test suite -->
+</testng-results>

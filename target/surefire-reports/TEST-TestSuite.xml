@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="77.082" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/monikasinghal/eclipse-new-workspace/testFirstMavenProject/target/test-classes:/Users/monikasinghal/eclipse-new-workspace/testFirstMavenProject/target/classes:/Users/monikasinghal/.m2/repository/commons-lang/commons-lang/2.3/commons-lang-2.3.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/monikasinghal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/monikasinghal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/monikasinghal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/monikasinghal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/monikasinghal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/monikasinghal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/monikasinghal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/monikasinghal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/monikasinghal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/monikasinghal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/monikasinghal/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/monikasinghal/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/monikasinghal/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/monikasinghal/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/monikasinghal/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/monikasinghal/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/monikasinghal/.m2/repository/com/opencsv/opencsv/5.4/opencsv-5.4.jar:/Users/monikasinghal/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/monikasinghal/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/monikasinghal/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/monikasinghal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/monikasinghal/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/monikasinghal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/monikasinghal/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/monikasinghal/eclipse-new-workspace/testFirstMavenProject/target/surefire/surefirebooter12849543289792973197.jar /Users/monikasinghal/eclipse-new-workspace/testFirstMavenProject/target/surefire 2021-05-31T16-31-00_999-jvmRun1 surefire3378545207117047225tmp surefire_017593679203652961826tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/monikasinghal/eclipse-new-workspace/testFirstMavenProject/target/test-classes:/Users/monikasinghal/eclipse-new-workspace/testFirstMavenProject/target/classes:/Users/monikasinghal/.m2/repository/commons-lang/commons-lang/2.3/commons-lang-2.3.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/monikasinghal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/monikasinghal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/monikasinghal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/monikasinghal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/monikasinghal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/monikasinghal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/monikasinghal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/monikasinghal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/monikasinghal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/monikasinghal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/monikasinghal/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/monikasinghal/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/monikasinghal/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/monikasinghal/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/monikasinghal/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/monikasinghal/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/monikasinghal/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/monikasinghal/.m2/repository/com/opencsv/opencsv/5.4/opencsv-5.4.jar:/Users/monikasinghal/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/monikasinghal/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/monikasinghal/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/monikasinghal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/monikasinghal/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/monikasinghal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/monikasinghal/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/monikasinghal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/monikasinghal/eclipse-new-workspace/testFirstMavenProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/monikasinghal/eclipse-new-workspace/testFirstMavenProject/target/surefire/surefirebooter12849543289792973197.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.8+10"/>
+    <property name="user.name" value="monikasinghal"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="/Users/monikasinghal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/dx/k6xgmsbn1559lxzps25k_2740000gn/T/"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="/Users/monikasinghal/eclipse-new-workspace/testFirstMavenProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/monikasinghal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.8+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="closeTheIframe" classname="testscripts.TestMyPedia" time="40.324">
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 29055
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 31, 2021 4:31:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLanguageDropdown" classname="testscripts.TestMyPedia" time="4.335"/>
+  <testcase name="createNewAccount[TestFirst, TestFirstLastName, testing@test.com, TestParent, Test@123, Test@123](1)" classname="testscripts.TestMyPedia" time="6.426">
+    <system-out><![CDATA[TestMyPedia
+]]></system-out>
+  </testcase>
+  <testcase name="createNewAccount[TestSecond, TestSecondLastName, testing2@test.com, TestSecondParent, Test@1234, Test@1234](2)" classname="testscripts.TestMyPedia" time="6.09"/>
+  <testcase name="createNewAccount[TestThird, TestThirdLastName, testing3@test.com, TestThirdParent, Test@12345, Test@12345](3)" classname="testscripts.TestMyPedia" time="6.046"/>
+  <testcase name="createNewAccount[TestFour, TestFourLastName, testing4@test.com, TestFourParent, Test@123456, Test@123456](4)" classname="testscripts.TestMyPedia" time="5.873"/>
+</testsuite>
